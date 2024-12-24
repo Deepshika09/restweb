@@ -1,0 +1,220 @@
+
+.header{
+   margin: 80;
+   padding: 80;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body{
+   width: 90%;
+   min-height: 100vh;
+   background: #f8f8f8; 
+}
+
+header{
+   height: 80px;
+   width: 1500px;
+   background: #5e0326;
+   color: #f8f8f8;
+   display: flex;
+   align-items: center;
+   
+}
+.container{
+   width: 80%;
+   margin:  auto;
+   display: flex;
+   align-items: center;
+   background-position: center;
+   justify-content: space-between;
+}
+nav ul li{
+   list-style: none;
+   display: inline;
+   margin-right: 20px;
+   font-weight: 600;
+}
+.logo-img {
+   height: 75px;
+   width: auto;
+   margin-right: 8px;
+}
+.hero {
+   width: 1300px;
+   height:460px;
+   background-image: url(restuarent/Delicious\ sweet\ macaroons\ and\ colorf.jpeg);
+   background-repeat: no-repeat;
+   background-position: cover;
+   background-size: cover;
+   background-color: #f8f8f8;
+   text-align: center;
+   font-family:'Merriweather',serif;
+   padding: 100px; 
+   margin-bottom: 20px;
+
+}
+.hero h2 {
+   font-size: 36px;
+   margin-bottom: 10px;
+
+}
+.hero h1{
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.search-box input{
+   width: 35%;
+   padding:9px;
+   outline: none;
+   border:0;
+   border-radius: 5px  5px;
+}
+.search-box button{
+   padding: 8px;
+   outline: none;
+   border:0;
+   font-size: 1rem;
+   border-radius: 5px 5px 5px 5px;
+   cursor:pointer;
+   background-color: rgb(242, 215, 180);
+}
+
+.menu{
+   padding: 50 px 0;
+}
+
+.menu h1{ 
+text-align: center;
+margin-bottom: 35px;
+font-size:30px;
+}
+.menu-section{
+   width:85%;
+   margin: 0 auto;
+   display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+   column-gap: 20px;
+}
+.menu-card{
+   background: #f8f8f8;
+   margin: 50px 10px;
+   border-radius: 15px;
+   border: 1px solid #ddc2c2;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.menu-card img{
+   width:100%;
+   height: 300px;
+   object-fit: cover;
+
+   
+}
+.menu-card h2{
+   font-size:24px ;
+   padding:20px;
+   text-align: center;
+}
+.menu-card a{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: #5e0326;
+   color:#f8f8f8;
+   padding:15px 0;
+   cursor: pointer;
+
+}
+.menu-card p{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   text-align: center;
+}
+.admin{
+   padding: 50 px 0;
+}
+
+.admin h1{ 
+text-align: center;
+margin-bottom: 35px;
+font-size:30px;
+}
+.chef-section{
+   width:85%;
+   margin: 0 auto;
+   display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+   column-gap: 20px;
+}
+.admin-card{
+   background: #f8f8f8;
+   margin: 50px 10px;
+   border-radius: 15px;
+   border: 1px solid #ddc2c2;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.admin-card img{
+   width:100%;
+   height: 300px;
+   object-fit: cover;
+
+   
+}
+.admin-card h2{
+   font-size:24px ;
+   padding:20px;
+   text-align: center;
+}
+
+.admin-card p{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   text-align: center;
+}
+.contact{
+   padding: 50 px 0;
+}
+
+.contact h1{ 
+text-align: center;
+margin-bottom: 35px;
+font-size:30px;
+}
+.contact-section{
+   width:85%;
+   margin: 0 auto;
+   display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+   column-gap: 20px;
+}
+.contact-card{
+   background: #f8f8f8;
+   margin: 50px 10px;
+   border-radius: 15px;
+   border: 1px solid #ddc2c2;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-card h2{
+   font-size:24px ;
+   padding:20px;
+   text-align: center;
+}
+
+.contact-card p{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   text-align: center;
+}
+.contact-card a{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: #5e0326;
+   color:#f8f8f8;
+   padding:15px 0;
+   cursor: pointer;
+}
